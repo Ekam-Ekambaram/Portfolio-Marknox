@@ -48,7 +48,7 @@ function Contact() {
                 </div>
 
 
-                <div class="social-menu">
+                <div className="social-menu">
                   <ul>
                     <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>

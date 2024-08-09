@@ -91,6 +91,12 @@ body {
   transform-origin: left;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
+.skills .skills-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #25b79f;
+  text-align: center;
+}
 
 @keyframes animate {
   100% {
