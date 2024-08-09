@@ -1,17 +1,16 @@
 /* Reset some basic styles */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-#navbar-top{
-  position: fixed;
 
-}
 body {
   padding-top: 80px; /* Adjust based on the height of your navbar */
 }
+
 /* Style the navigation bar */
 nav {
   position: fixed;
@@ -20,8 +19,7 @@ nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
   z-index: 1000; /* Ensure it stays above other elements */
   background-color: #fff; /* Ensure the background color is set */
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 10px 20px; /* Reduced padding for better responsiveness */
 }
 
 /* Style the navigation links */
@@ -31,13 +29,12 @@ nav {
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: 550;
-  transition: background-color 0.3 ease, color 0.3 ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Hover effect */
 .nav-link:hover {
   background-color: #7d2ae8;
-
   color: #fff;
   text-decoration: underline;
 }
@@ -55,40 +52,70 @@ nav {
 .navbar-nav .nav-link:last-child {
   margin-right: 0; /* Remove margin from the last item */
 }
-#nav-1:hover{
+
+/* Specific hover color change */
+#nav-1:hover, #nav-2:hover, #nav-3:hover, #nav-4:hover {
   color: #fff;
 }
-#nav-2:hover{
-  color: #fff;
-}#nav-3:hover{
-  color: #fff;
-}#nav-4:hover{
-  color: #fff;
-}
+
 /* General section styling */
 section {
   padding-top: 80px; /* Adjust based on the height of your navbar */
   margin-top: -80px; /* Adjust based on the height of your navbar */
-  
 }
 
 /* Specific section IDs if needed */
-#home {
+#home, #about, #portfolio, #contact {
   padding-top: 140px; /* Adjust based on the height of your navbar */
   margin-top: -80px; /* Adjust based on the height of your navbar */
 }
 
-#about {
-  padding-top: 80px; /* Adjust based on the height of your navbar */
-  margin-top: -80px; /* Adjust based on the height of your navbar */
+/* Responsive Styles (for mobile devices) */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 10px 10px; /* Reduce padding for smaller screens */
+  }
+
+  .nav-link {
+    padding: 8px 15px; /* Reduce padding for links */
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 10px; /* Adjust margin for smaller screens */
+  }
+
+  /* Adjustments for section padding on mobile */
+  section {
+    padding-top: 70px;
+    margin-top: -70px;
+  }
+
+  #home, #about, #portfolio, #contact {
+    padding-top: 100px;
+    margin-top: -70px;
+  }
 }
 
-#portfolio {
-  padding-top: 80px; /* Adjust based on the height of your navbar */
-  margin-top: -80px; /* Adjust based on the height of your navbar */
-}
+@media screen and (max-width: 480px) {
+  .nav-link {
+    padding: 7px 10px; /* Further reduce padding for very small screens */
+    font-size: 12px; /* Smaller font size for better fit */
+  }
 
-#contact {
-  padding-top: 80px; /* Adjust based on the height of your navbar */
-  margin-top: -80px; /* Adjust based on the height of your navbar */
+  .navbar-image {
+    width: 30px; /* Reduce image size for mobile */
+    height: 30px;
+  }
+
+  /* More adjustments for section padding on very small screens */
+  section {
+    padding-top: 60px;
+    margin-top: -60px;
+  }
+
+  #home, #about, #portfolio, #contact {
+    padding-top: 90px;
+    margin-top: -60px;
+  }
 }
