@@ -335,6 +335,10 @@
     .services .serv-content .card {
       width: 100%;
     }
+    .contact-content{
+      display: flex;
+      flex-direction: column;
+    }
   }
   
   @media (max-width: 500px) {
@@ -365,5 +369,9 @@
       width: 35px;
       font-size: 23px;
       line-height: 38px;
+    }
+    .contact-content{
+      display: flex;
+      flex-direction: column;
     }
   }

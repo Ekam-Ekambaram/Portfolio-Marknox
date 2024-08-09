@@ -249,6 +249,10 @@ body {
     font-size: 23px;
     line-height: 38px;
   }
+  .about-me .about-content {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Medium Devices (Tablets) */
@@ -271,6 +275,10 @@ body {
 
   .services .serv-content .card {
     width: 100%;
+  }
+  .about-me .about-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 

@@ -91,8 +91,15 @@
 /* Responsive Styles (for tablets and mobile devices) */
 @media screen and (max-width: 768px) {
     .home {
-        padding: 20px 50px; /* Reduce padding */
-        height: 100vh; /* Ensure full screen height on smaller devices */
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url('https://res.cloudinary.com/dsjcty43b/image/upload/v1723025752/background_mwxgln.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        padding: 30px 100px;
     }
 
     .content h2 {
@@ -121,14 +128,20 @@
         line-height: 30px;
         margin-right: 15px; /* Reduce margin */
     }
+
 }
 
 @media screen and (max-width: 480px) {
     .home {
-        padding: 10px 20px; /* Further reduce padding */
+        position: relative;
+        width: 100%;
         height: 100vh;
-        align-items: flex-start; /* Align content to the top */
-        justify-content: center; /* Center content horizontally */
+        background: url('https://res.cloudinary.com/dsjcty43b/image/upload/v1723025752/background_mwxgln.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        padding: 30px 100px;
     }
 
     .content {
