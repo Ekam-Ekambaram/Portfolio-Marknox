@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 
 import './App.css';
@@ -7,12 +7,12 @@ import './App.css';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
         <Route path="/" Component={LandingPage} />
         {/* Add more routes as needed */}
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
