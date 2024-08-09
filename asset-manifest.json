@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-Marknox/static/css/main.1abb50fd.css",
-    "main.js": "/Portfolio-Marknox/static/js/main.c12de80e.js",
+    "main.css": "/Portfolio-Marknox/static/css/main.382373b4.css",
+    "main.js": "/Portfolio-Marknox/static/js/main.3b89a726.js",
     "static/js/453.ed3810f9.chunk.js": "/Portfolio-Marknox/static/js/453.ed3810f9.chunk.js",
     "index.html": "/Portfolio-Marknox/index.html",
-    "main.1abb50fd.css.map": "/Portfolio-Marknox/static/css/main.1abb50fd.css.map",
-    "main.c12de80e.js.map": "/Portfolio-Marknox/static/js/main.c12de80e.js.map",
+    "main.382373b4.css.map": "/Portfolio-Marknox/static/css/main.382373b4.css.map",
+    "main.3b89a726.js.map": "/Portfolio-Marknox/static/js/main.3b89a726.js.map",
     "453.ed3810f9.chunk.js.map": "/Portfolio-Marknox/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1abb50fd.css",
-    "static/js/main.c12de80e.js"
+    "static/css/main.382373b4.css",
+    "static/js/main.3b89a726.js"
   ]
 }
